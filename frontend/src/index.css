@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .float-animation {
+    animation: float 3.5s ease-in-out infinite;
+  }
+
+  .skill-tag {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 15px;
+  }
+  
+  .skill-tag button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .autocomplete-suggestions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .autocomplete-suggestions li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .autocomplete-suggestions li:hover {
+    background-color: #e6e6e6;
+  }
+  
+  @import "tailwindcss";
+.announcement-list::-webkit-scrollbar{
+    display: none;
+}
+
+.announcement::-webkit-scrollbar{
+    display: none;
+}
+
+.feed-details::-webkit-scrollbar{
+    display: none;
+}
+
+.announcement-list::-webkit-scrollbar{
+    display: none;
+}
+
+.userdashboard::-webkit-scrollbar{
+    display: none;
+}
+
+.digest-list::-webkit-scrollbar{
+    display: none;
+}
+
+.kanban-column::-webkit-scrollbar{
+    display: none;
+}
+
+.no-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 10px;
+}
